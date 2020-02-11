@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+ asrapp1:
+  build: .
+  image: asrwebapp:v1
+  container_name: asrappc1
+  ports:
+  - "2705:80"
