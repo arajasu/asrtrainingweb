@@ -5,4 +5,4 @@ services:
   image: asrwebapp:v1
   container_name: asrappc1
   ports:
-  - "2705:80"
+  - "31237:80"
